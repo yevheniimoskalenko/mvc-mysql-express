@@ -1,0 +1,35 @@
+{
+  "name": "mvc-mysql-jwt-express",
+  "version": "1.0.0",
+  "description": "use mvc mysql in express",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yevheniimoskalenko/mvc-mysql-express.git"
+  },
+  "keywords": [
+    "mvc",
+    "mysql",
+    "jwt",
+    "express"
+  ],
+  "author": "yevhenii moskalenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yevheniimoskalenko/mvc-mysql-express/issues"
+  },
+  "homepage": "https://github.com/yevheniimoskalenko/mvc-mysql-express#readme",
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "prettier": "2.2.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
