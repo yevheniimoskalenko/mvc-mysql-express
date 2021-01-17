@@ -9,5 +9,14 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  rules: {},
+  rules: {
+    'no-restricted-imports': [
+      'error',
+      {
+        paths: ['import1', 'import2'],
+        patterns: ['import1/private/*', 'import2/*', '!import2/good'],
+      },
+    ],
+    'import/extensions': 'always',
+  },
 };
